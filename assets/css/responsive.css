@@ -1,0 +1,40 @@
+/* Media query */
+@media (min-width: 576px){
+  .column-border{
+    width: 450px;
+  }
+  .column-carousel{
+    width: 450px;
+    left: 8%;
+    top: 15%;
+  }
+}
+@media (min-width: 768px){
+  .column-carousel{
+    left: 18%;
+  }
+  .passenger-que-arrow{
+    display: flex!important;
+  }
+  .column-carousel{
+    top: 15%;
+  }
+  .column-border{
+  border: 2px solid #0d784e;
+  }
+  .transparency-seal-h2, .train-availability-h2{
+    text-align: unset;
+  }
+  #news{
+    height: unset;
+  }
+}
+@media (min-width: 992px){
+  .column-carousel{
+    z-index: 2;
+    left: 10%;
+    padding: 0;
+  }
+}
+
+/* Media query */

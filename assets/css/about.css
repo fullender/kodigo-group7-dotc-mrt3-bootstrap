@@ -1,0 +1,272 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+/*--------------------------------------------------------------
+# Nav
+--------------------------------------------------------------*/
+
+.navbar.solid {
+  background-color:#444444!important;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px rgb(128, 128, 128);
+}
+   
+.cstm-nav{
+  background-color: yellow!important;
+}
+
+.navbar li a {
+  color: white!important;
+}
+li a:hover{
+background-color: #ffce2a;
+}
+
+.border-box{
+   transition: transform .2s; /* Animation */
+}
+.border-box:hover{
+  transform: scale(1.06);
+  border:2px solid #00834f;
+  -webkit-box-shadow: 3px 3px 0px 1px rgb(53 75 156);
+-moz-box-shadow: 3px 3px 0px 1px rgb(53 75 156);
+box-shadow: 3px 3px 0px 1px rgb(53 75 156);
+}
+
+
+.navbar li a {
+  color: rgb(255, 255, 255)!important;
+  font-weight: bold;}
+.navbar li a:hover{
+    color:#000!important;
+  }
+.navbar li:hover{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .logo_resize{
+    height:100px!important;
+  }
+
+.navbar ul{
+  width: 100% !important;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about {
+  background: #ecf3f6;
+  color: #4c6e79
+}
+
+#about .content h4 {
+  font-weight: 900;
+}
+
+#about .content .sub-header {
+  font-weight: 900;
+  opacity: 1;
+}
+
+#about .content span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#about .sidebar .list-group-item a {
+  color: #4c6e79;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 3px;
+}
+
+#about .sidebar .list-group-item a:hover {
+  background: #b8b9aa;
+  border-radius: 6px;
+}
+
+#about .sidebar .list-group-item {
+  background: #ecf3f6;
+}
+
+#about .content p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+#about .content ul {
+  list-style-type: circle;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.content .train-schedule {
+  vertical-align: baseline;
+  font-size: 15px;
+}
+
+.content .train-schedule table {
+  width: 100%;
+  border: 1px solid #A8BCC4;
+}
+
+.content .train-schedule thead {
+  border: 0;
+  outline: 0;
+  color: #ecf3f6;
+  background: #A8BCC4;
+  font-weight: bolder;
+  padding: 20px;
+  height: 38px;
+}
+
+.content .train-schedule tbody {
+  font-size: 14px;
+}
+
+.content .train-schedule tr, #about .train-schedule td  {
+  border: 1px solid #A8BCC4;
+  padding: 10px;
+}
+
+.content .mrt-brochure {
+  color: #4c6e79;
+}
+
+.content .mrt-brochure a {
+  opacity: 0.6;
+}
+
+.content .mrt-brochure a i:hover {
+  color: #4c6e79 !important;
+}
+
+.content .organizational-structure, .content .buying-ticket {
+  opacity: 1 !important;
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #222;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+    margin-bottom: 15px;
+    background: #191919;
+    color: #fff;
+    border-top: 4px solid #FFCE2A;
+    text-align: center;
+    padding: 30px 20px;
+    min-height: 365px;
+}
+
+#footer .footer-top .footer-info h3 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-info h4 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+#footer .footer-top .footer-info img {
+    width: 347px;
+    height: auto;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #4099FF;
+}
+
+.rss {
+    color: #FF6600;
+}
+
+#footer .footer-top .social-links .fa-stack-1x {
+    color: white;
+}
+
+#footer .copyright {
+    border-top: 1px solid #262626;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer hr {
+    border-top: 5px dashed #FFCE2A;
+}
+
+/*--------------------------------------------------------------
+# Nav css force to run
+--------------------------------------------------------------*/
+.text-light a:hover{
+  color:black!important;
+}
+
+
+/*--------------------------------------------------------------
+# Back to Top
+--------------------------------------------------------------*/
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 4px;
+  display: flex-inline;
+  cursor: pointer;
+  z-index: 16;
+}
+
+.top-link .back2top {
+   color: #FFCE2A;
+   opacity: 0.7;
+}
